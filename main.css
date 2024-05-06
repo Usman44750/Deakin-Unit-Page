@@ -1,52 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <style>
+        /* Your existing CSS styles */
+        h1 {
+            font-size: 40px;
+            font-family: Arial;
+        }
 
-/* Set global styles for consistent font and colors */
-body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 20px;
-}
+        h2 {
+            font-size: 25px;
+            font-family: Arial;
+        }
 
-/* Style for the main header */
-h1 {
-    font-size: 40px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: #1e73be;
-    margin-bottom: 20px;
-    text-align: center;
-}
+        h3 {
+            font-family: Arial;
+        }
 
-/* Style for secondary header */
-h2 {
-    font-size: 25px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    color: #444;
-    margin-bottom: 15px;
-    text-align: left;
-}
+        p {
+            font-size: 14px;
+            font-family: Arial;
+        }
 
-/* Style for tertiary header */
-h3 {
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    color: #666;
-    margin-bottom: 10px;
-    text-align: left;
-}
+        /* New styles for the header */
+        .header {
+            background-color: darkcyan;
+            text-align: right;
+        }
 
-/* Style for paragraphs */
-p {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    margin-bottom: 15px;
-    text-align: justify;
-}
+        /* Additional styles */
+        div {
+            background-color: blue;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>SIT223-SIT753 - Professional Practice in IT</h1>
+    <div class="header">
+        <img src="logo.svg" alt="Deakin" width="200" height="210">
+        <span>UI Designer Tasks</span>
+    </div>
+    <!-- Your content goes here -->
 
-
-
+    <!-- Provided HTML snippet -->
+    <table style="width:100%">
+        <tr>
+            <td>Year: </td>
+            <td>2023 unit information</td>
+        </tr>
+        <tr>
+            <td>Enrolment modes:</td>
+            <td>Trimester 2: Burwood (Melbourne), Cloud (online)</td>
+        </tr>
+        <tr>
+            <td>Credit point(s):</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Unit Chair:</td>
+            <td>Trimester 2: Azadeh Ghari Neiat</td>
+        </tr>
+        <tr>
+            <td>Scheduled Learning Activities:</td>
+            <td>1 x 3 hour active class per week, weekly drop in support.</td>
+        </tr>
+    </table>
+    <h3>Content</h3>
+    <p>
+        To be successful IT graduates need to understand the use of industry tools and practices,
+        the ways these tools work and connect together, and the underlying professional, ethical,
+        and teamwork knowledge and skills needed to put these into practice in a professional manner.
+    </p>
+    <h3>Hurdle requirement</h3>
+    <p>
+        To be eligible to obtain a pass in this unit, students must meet certain milestones as part of the portfolio.
+    </p>
+    <a href="https://www.deakin.edu.au/students/enrolment-and-fees/fees">> Current students</a>
+</body>
+</html>
